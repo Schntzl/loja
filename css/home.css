@@ -1,1 +1,17 @@
 @import 'nav.css';
+
+.hero-section{
+  width: 100%;
+  background-image: url('../img/banner.png');
+  background-size: cover;
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .logo{
+  height: 150px;
+  display: block;
+  margin: auto;
+}
